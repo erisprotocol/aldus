@@ -419,5 +419,45 @@
         "faucets": []
       }
     ]
+  },
+  "migaloo": {
+    "name": "Migaloo",
+    "bech32Prefix": "migaloo",
+    "slip44": "118",
+    "website": "https://sei.io",
+    "iconUri": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png?raw=true",
+    "documentation": "https://docs.sei.io",
+    "github": "https://github.com/sei-protocol",
+    "networks": [
+      {
+        "type": "mainnet",
+        "bech32Prefix": "migaloo",
+        "celatone": "https://seiscan.app/pacific-1",
+        "chainId": "migaloo-1",
+        "chainName": "Migaloo Mainnet",
+        "publicLCD": "https://sei-api.polkachu.com/",
+        "lcdSwagger": "",
+        "publicRPC": "https://sei-rpc.polkachu.com/",
+        "rpcSwagger": "",
+        "publicGRPC": "",
+        "lcds": [
+          {
+            "url": "https://migaloo-api.polkachu.com",
+            "provider": "Polkachu",
+            "archive": false,
+            "logo": "https://avatars.githubusercontent.com/u/85417391"
+          }
+        ],
+        "rpcs": [
+          {
+            "url": "https://migaloo-rpc.polkachu.com/",
+            "provider": "Polkachu",
+            "archive": false,
+            "logo": "https://avatars.githubusercontent.com/u/85417391"
+          }
+        ],
+        "faucets": []
+      }
+    ]
   }
 }
